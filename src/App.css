@@ -1,0 +1,192 @@
+.header-color {
+  background: #1f4037;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {background: #1f4037;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+text-align: center;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.BannerText {
+  background-color: black;
+  opacity: .6;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.BannerText h1 {
+  font-size: 68px;
+  color: white
+}
+
+.BannerText hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.BannerText p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.BannerParagraph {
+  background-color: black;
+  opacity: .6;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.BannerText h2 {
+  color: white;
+}
+
+.BannerText h3 {
+  color: white;
+}
+
+/* .projectGrid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: #99f2c8;
+  color: black;
+  margin-bottom: 20px;
+} */
+
+.ProfilePic {
+  height: 200px;
+  border-radius: 70%;
+  opacity: 0;
+
+}
+
+.contactBody {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contactGrid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: #1f4037;  
+  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  
+  background: linear-gradient(to right, #99f2c8, #1f4037);;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contactGrid h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contactGrid p {
+  font-family: 'Arvo', serif;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted-black;
+  margin: auto;
+  width: 50%;
+}
+
+.projectGrid {
+  width: 100%;
+  height: 850px;
+  background: #1f4037; 
+  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  
+  background: linear-gradient(to right, #99f2c8, #1f4037);
+  color: black;
+  margin-bottom: 20px;
+}
+
+.link {
+color: black;
+font-weight: bolder;
+}
+
+.contactInfo {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.contactList i {
+  font-size: 50px;
+  padding-right: 5rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
